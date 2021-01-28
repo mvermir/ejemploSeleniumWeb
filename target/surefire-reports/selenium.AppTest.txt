@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: selenium.AppTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.266 s <<< FAILURE! - in selenium.AppTest
-shouldAnswerWithTrue(selenium.AppTest)  Time elapsed: 0.156 s  <<< ERROR!
-java.lang.IllegalStateException: The driver executable does not exist: C:\Users\mverm\Documents\Repositorios\ejemploSeleniumWeb\drivers\chromedriver
-	at selenium.AppTest.setUp(AppTest.java:25)
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.297 s <<< FAILURE! - in selenium.AppTest
+shouldAnswerWithTrue(selenium.AppTest)  Time elapsed: 0.204 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable is a directory: C:\Users\mverm\Documents\Repositorios\ejemploSeleniumWeb\drivers
+	at selenium.AppTest.setUp(AppTest.java:26)
 
